@@ -1,0 +1,22 @@
+.youtube:hover {
+    color: red;
+}
+
+.facebook:hover {
+    color: #3b5998;
+}
+
+
+.instergram:hover {
+    
+    fill: #8a3ab9;
+	
+}
+
+.linkedIn:hover {
+    color: #0e76a8;
+}
+
+.email:hover {
+    color: royalblue;
+}
