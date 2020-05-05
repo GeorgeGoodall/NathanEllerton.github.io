@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <div className="backgroundContainer">
-        <img src={backgroundImage} className="image"></img>
+        <div className="image"></div>
     </div>
   );
 }

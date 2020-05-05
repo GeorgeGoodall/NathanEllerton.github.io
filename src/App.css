@@ -10,14 +10,11 @@ body {
 }
 
 .image {
-    position: absolute;
-    top: -9999px;
-    bottom: -9999px;
-    left: -9999px;
-    right: -9999px;
-    margin: auto;
-    min-width: 100%;
-    min-height: 100%;
+  background-image: url("./Assets/Images/1.jpg");
+  position: absolute;
+  margin: auto;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 @media screen and (max-width: 600px){
