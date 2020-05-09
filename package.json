@@ -2,14 +2,23 @@
   "name": "nathansportfolio",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:9000/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
     "react": "^16.13.1",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.13.1",
+    "react-grid-gallery": "^0.5.5",
     "react-icons": "^3.10.0",
-    "react-scripts": "3.4.1"
+    "react-image-gallery": "^1.0.7",
+    "react-instafeed": "^1.0.0",
+    "react-photo-grid": "^1.4.11",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-youtube": "^7.11.2"
   },
   "scripts": {
     "start": "react-scripts start",

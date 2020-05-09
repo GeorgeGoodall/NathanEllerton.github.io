@@ -3,22 +3,14 @@ body {
 }
 
 .backgroundContainer {
-  width: 100vw;
   height: 100vh;
   overflow: hidden;
   position: relative;
+  background-image: url("./Assets/Images/1.jpg");
+    background-size: cover;
+  background-position: center;
 }
 
-.image {
-  background-image: url("./Assets/Images/1.jpg");
-  position: absolute;
-  margin: auto;
-  background-size: cover;
-  background-position: center;
-  min-width: 100vw;
-  min-height: 100vh;
-  color: white;
-}
 
 .aboutSection{
   margin: 20px;
@@ -26,15 +18,42 @@ body {
   color: white;
 }
 
+.aboutSection h1 {
+  -webkit-animation: fadein 1s ease-in-out; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s ease-in-out; /* Firefox < 16 */
+   -ms-animation: fadein 1s ease-in-out; /* Internet Explorer */
+    -o-animation: fadein 1s ease-in-out; /* Opera < 12.1 */
+       animation: fadein 1s ease-in-out;
+}
+
+.aboutSection p {
+  -webkit-animation: fadein 2s ease-in-out; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s ease-in-out; /* Firefox < 16 */
+   -ms-animation: fadein 2s ease-in-out; /* Internet Explorer */
+    -o-animation: fadein 2s ease-in-out; /* Opera < 12.1 */
+       animation: fadein 2s ease-in-out;
+}
+
+.icons {
+  -webkit-animation: fadein 4s ease-in-out; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 4s ease-in-out; /* Firefox < 16 */
+   -ms-animation: fadein 4s ease-in-out; /* Internet Explorer */
+    -o-animation: fadein 4s ease-in-out; /* Opera < 12.1 */
+       animation: fadein 4s ease-in-out;
+}
+
+
+
 .icon {
   padding: 10px;
   height: 30px;
   width: 30px;
+  cursor: pointer;
 }
 
 .navbar {
   display: flex;
-  position: fixed;
+  position: absolute;
   bottom: 20px;
   left: 50%;
   width: 400px;
@@ -48,11 +67,41 @@ body {
   cursor: pointer;
   width: 100px;
   text-align: center;
+  color: white;
+  text-decoration: none;
 }
 
-.navItem:hover {
-  font-size: 35px;
-  font-weight: bolder;
+.navItem a {
+  text-decoration: none;
+  color: white;
 }
 
+.navItem a:hover {
+  color: aqua;
+}
+
+
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
 

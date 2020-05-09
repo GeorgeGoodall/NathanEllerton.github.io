@@ -8,9 +8,7 @@
 
 
 .instergram:hover {
-    
-    fill: #8a3ab9;
-	
+    fill: url(#instagram-gradient)
 }
 
 .linkedIn:hover {

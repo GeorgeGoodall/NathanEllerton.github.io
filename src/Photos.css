@@ -1,0 +1,52 @@
+.Gallary {
+    
+}
+
+.featured-slide {
+    height: calc(100vh - 120px);
+    margin-top: auto;
+}
+
+.Gallary-Nav {
+    position: absolute;
+    left: 20px;
+    z-index: 20;
+}
+
+.Gallary-Nav a{
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;;
+
+}
+
+.gallary-navItem {
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .Gallary-Nav {
+        position: relative;
+    }
+
+    .gallary-navItem {
+        float: none;
+        
+    }
+}
+
+/* .Gallary img {
+    width: 100%;
+    height: auto;
+} */
+
+.image {
+    width: 300px;
+    float: left;
+    overflow: hidden;
+}
