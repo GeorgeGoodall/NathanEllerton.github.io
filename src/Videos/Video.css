@@ -27,5 +27,7 @@
 }
 
 .Videos {
-    margin-top: 50px;
+    margin-top: 10px;
+    padding-top: 0px;
+    background-color: rgb(31, 31, 31);
 }
