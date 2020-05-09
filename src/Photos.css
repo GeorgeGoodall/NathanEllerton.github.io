@@ -3,8 +3,10 @@
 }
 
 .featured-slide {
-    
-    margin-top: auto;
+    height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .Gallary-Nav {
