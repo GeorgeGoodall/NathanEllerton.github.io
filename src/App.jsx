@@ -5,7 +5,7 @@ import './App.css';
 import './transitions.css'
 import Landing from './Landing'
 import Photos from './Photos';
-import Videos from './Videos/Videos';
+import Videos from './Videos/Videos.jsx';
 import PageShell from './PageShell';
 
 
@@ -16,9 +16,7 @@ function App() {
         
           <Landing />
           <Photos />
-          <Videos 
-            
-          />
+          <Videos />
         
       </div>
     
