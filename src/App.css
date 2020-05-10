@@ -5,6 +5,7 @@ body {
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .backgroundContainer {
@@ -24,6 +25,8 @@ html, body {
 }
 
 .aboutSection h1 {
+  font-size: 4vw;
+  margin-bottom: 5px;
   -webkit-animation: fadein 1s ease-in-out; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 1s ease-in-out; /* Firefox < 16 */
    -ms-animation: fadein 1s ease-in-out; /* Internet Explorer */
@@ -32,6 +35,8 @@ html, body {
 }
 
 .aboutSection p {
+  font-size: 1vw;
+  margin: 0 0 20px 5px;
   -webkit-animation: fadein 2s ease-in-out; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2s ease-in-out; /* Firefox < 16 */
    -ms-animation: fadein 2s ease-in-out; /* Internet Explorer */

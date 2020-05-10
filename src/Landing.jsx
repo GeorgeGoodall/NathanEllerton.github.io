@@ -10,7 +10,8 @@ const Landing = () => {
             
                 <div className="aboutSection">
                     <h1>Nathan Ellerton</h1>
-                    <p>is a bossman when it comes to photos and videos i guess</p>
+                    <p>Photographer, Videographer, Multiskilled Content Creator.</p>
+
                     <div className="icons">
                         <FaFacebook className={"facebook icon"}/>
                         <FaInstagram className={"instergram icon"}/>

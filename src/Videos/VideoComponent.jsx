@@ -2,19 +2,20 @@ import React from 'react';
 import Youtube from 'react-youtube';
 import "./Video.css";
 
-const VideoComponent = () => {
+const VideoComponent = (props) => {
+
+    const {videoID, title, description} = props;
+
     return (
         <div className="VideoComponent">
             <Youtube 
-                videoId={"eIR4FtSb-0Y"}
+                videoId={videoID}
                 containerClassName={"playerContainer"}
                 className={"player"}
             />
             <div className="videoAbout">
-                <h1>25ish Cartoon Impressions</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis praesentium fuga vitae dolore dolorem ratione debitis obcaecati laudantium minima facilis quidem dicta, officia placeat doloremque. Delectus praesentium asperiores quae?
-                </p>
+                <h1>{title}</h1>
+                <p>{description}</p>
             </div>
         </div>
     );
