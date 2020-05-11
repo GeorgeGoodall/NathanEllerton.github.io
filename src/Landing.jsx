@@ -13,11 +13,11 @@ const Landing = () => {
                     <p>Photographer, Videographer, Multiskilled Content Creator.</p>
 
                     <div className="icons">
-                        <FaFacebook className={"facebook icon"}/>
-                        <FaInstagram className={"instergram icon"}/>
-                        <FaYoutube className={"youtube icon"}/>
-                        <FaLinkedin className={"linkedIn icon"}/>
-                        <FaEnvelope className={"email icon"}/>
+                        <a href="https://www.facebook.com/NathanJEllerton"><FaFacebook className={"facebook icon"}/></a>
+                        <a href="https://www.instagram.com/nathanjellerton"><FaInstagram className={"instergram icon"}/></a>
+                        <a href="https://www.youtube.com/c/nathanjellerton"><FaYoutube className={"youtube icon"}/></a>
+                        <a href="https://www.linkedin.com/in/nathanjellerton"><FaLinkedin className={"linkedIn icon"}/></a>
+                        <a href="mailto:nathanjellerton@gmail.com"><FaEnvelope className={"email icon"}/></a>
                         <svg width='0' height='0'>
                             <radialGradient id='instagram-gradient' r='150%' cx='30%' cy='107%'>
                             <stop stopColor='#fdf497' offset='0' />

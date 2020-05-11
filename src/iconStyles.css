@@ -18,3 +18,8 @@
 .email:hover {
     color: royalblue;
 }
+
+.icons a {
+    text-decoration: none;
+    color: white;
+}
