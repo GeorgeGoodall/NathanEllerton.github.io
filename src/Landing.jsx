@@ -31,10 +31,10 @@ const Landing = () => {
                 </div>
                 <div className="navbar">
                     <div className="navItem">
-                        <a href="#Gallary">Photos</a>
+                        <a href="#Gallary">PHOTOS</a>
                     </div>
                     <div className="navItem">
-                        <a href="#Videos">Videos</a>
+                        <a href="#Videos">VIDEOS</a>
                     </div>
                 </div>
             

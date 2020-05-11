@@ -1,0 +1,12 @@
+.contactSection {
+    color: white;
+    text-align: center;
+}
+
+.contactSection p {
+    font-size: 20px;
+}
+
+.contactSection a {
+    color: lightblue;
+}
