@@ -1,6 +1,7 @@
 .Gallery {
     min-height: 100vh;
-    
+    border-top: dotted 5px grey;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .featured-slide {

@@ -7,6 +7,8 @@
 
 .contactSection p {
     font-size: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
 }
 
 .contactSection a {
