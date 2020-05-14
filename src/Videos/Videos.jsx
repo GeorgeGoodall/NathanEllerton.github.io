@@ -6,8 +6,8 @@ const Videos = () => {
     console.log(videos)
     
     return (
-        <div id="Videos" className="Videos">
-            <h1 className="VideosTitle">Videos</h1>
+        <div id="videos" className="Videos">
+            <h1 className="VideosTitle">VIDEOS</h1>
             <div className="VideosContainer">
                 {videos.map((video)=>{
                     console.log(video)

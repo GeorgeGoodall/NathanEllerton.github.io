@@ -1,16 +1,23 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import backgroundImage from './Assets/Images/1.jpg';
 import { FaFacebook, FaInstagram, FaYoutube, FaEnvelope, FaLinkedin } from 'react-icons/fa'
 import {Link} from "react-router-dom";
 import "./iconStyles.css";
+import nathanImage from "./Assets/Images/1.jpg"
 
 const Landing = () => {
+
+    const [backgroundLoaded, setbackgroundLoaded] = useState(false);
+
+
     return (
-        <div className="backgroundContainer">
+        <React.Fragment>
+        <img className="backgroundContainer" src={nathanImage} style={{display: backgroundLoaded ? "block" : "none"}} onLoad={()=>{setbackgroundLoaded(true)}}></img>
+        <div className="landingPage">
             
                 <div className="aboutSection">
                     <h1>Nathan Ellerton</h1>
-                    <p>Photographer, Videographer, Multiskilled Content Creator.</p>
+                    <p>Photographer, videographer, multiskilled content creator.</p>
 
                     <div className="icons">
                         <a href="https://www.facebook.com/NathanJEllerton"><FaFacebook className={"facebook icon"}/></a>
@@ -31,14 +38,15 @@ const Landing = () => {
                 </div>
                 <div className="navbar">
                     <div className="navItem">
-                        <a href="#Gallary">PHOTOS</a>
+                        <a href="#gallery">PHOTOS</a>
                     </div>
                     <div className="navItem">
-                        <a href="#Videos">VIDEOS</a>
+                        <a href="#videos">VIDEOS</a>
                     </div>
                 </div>
             
         </div>
+        </React.Fragment>
     );
 }
 

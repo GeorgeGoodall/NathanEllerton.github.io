@@ -62,7 +62,7 @@ const Photos = () => {
 
   console.log("render")
   return (
-    <div id="Gallary" className="Gallary">
+    <div id="gallery" className="Gallery">
       
       <Gallery
         items={images}
