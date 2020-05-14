@@ -17,7 +17,7 @@ const Landing = () => {
             
                 <div className="aboutSection">
                     <h1>Nathan Ellerton</h1>
-                    <p>Photographer, videographer, multiskilled content creator.</p>
+                    <p>Photographer, videographer, multi-skilled content creator.</p>
 
                     <div className="icons">
                         <a href="https://www.facebook.com/NathanJEllerton"><FaFacebook className={"facebook icon"}/></a>
