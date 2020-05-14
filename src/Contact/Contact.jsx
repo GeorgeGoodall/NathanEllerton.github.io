@@ -4,7 +4,7 @@ import "./contact.css";
 const Contact = () => {
     return (
         <div className="contactSection">
-            <h1>Contact detail</h1>
+            <h1>Contact details</h1>
             <p>If you are interested in working with me, or want any more information please get in touch here: <a href="mailto:nathanjellerton@gmail.com">nathanjellerton@gmail.com</a></p>
         </div>
     );
