@@ -15,6 +15,7 @@ html, body {
   position: fixed;
   z-index: -40;
   object-fit: cover;
+  filter: blur(0px);
   
   -webkit-animation: fadein 1s ease-in-out; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 1s ease-in-out; /* Firefox < 16 */
