@@ -12,8 +12,8 @@ html, body {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-  position: absolute;
-  
+  position: fixed;
+  z-index: -40;
   object-fit: cover;
   
   -webkit-animation: fadein 1s ease-in-out; /* Safari, Chrome and Opera > 12.1 */
