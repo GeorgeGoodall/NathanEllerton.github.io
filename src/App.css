@@ -10,6 +10,7 @@ html, body {
 
 .backgroundContainer {
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   width: 100vw;
   overflow: hidden;
   position: fixed;
@@ -26,6 +27,7 @@ html, body {
 
 .landingPage {
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   overflow: hidden;
   position: relative;
 }
