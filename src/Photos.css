@@ -1,5 +1,9 @@
 .Gallery {
+    padding-top: 25px;
     min-height: 100vh;
+    min-height: calc(var(--vh, 1vh) * 100);
+    border-top: dashed 1px grey;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .featured-slide {

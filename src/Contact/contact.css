@@ -1,12 +1,20 @@
 .contactSection {
     color: white;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 20px;
 }
 
 .contactSection p {
     font-size: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
 }
 
 .contactSection a {
     color: lightblue;
+}
+
+.contactSection h1 {
+    margin-top: 0;
 }
