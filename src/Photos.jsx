@@ -8,7 +8,7 @@ import feed from "./feed.json"
 import "./Photos.css";
 
 const images = [];
-importAll(require.context('./Assets/Images/', false, /\.(png|jpe?g|svg|mp4)$/));
+importAll(require.context('./Assets/GallaryImages/', false, /\.(png|jpe?g|svg|mp4)$/));
 function importAll(r) {
   return r.keys().forEach((key) => {
   	let k = key.substring(2); // remove the ./ from the start
